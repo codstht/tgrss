@@ -10,8 +10,8 @@ Path("config").mkdir(parents=True, exist_ok=True)
 
 # Docker env
 if os.environ.get('TOKEN'):
-    Token = os.environ['5275716639:AAG0ecVtMfb5mjSIsLl3NATn8uKRUlnHq5UN']
-    chatid = os.environ['-1001595823629']
+    Token = os.environ['dolacak']
+    chatid = os.environ['dolacak']
     delay = int(os.environ['DELAY'])
 else:
     Token = "5275716639:AAG0ecVtMfb5mjSIsLl3NATn8uKRUlnHq5U"
